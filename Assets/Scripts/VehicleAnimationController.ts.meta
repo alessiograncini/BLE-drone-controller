@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/ce80401b-c3db-4937-b129-c56886db8afd>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f9ae3160-1c40-4e1f-a883-af0c0d0a6b38
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f9ae3160-1c40-4e1f-a883-af0c0d0a6b38
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 166ccea0-a740-45ef-96eb-9d4310f64bb3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/166ccea0-a740-45ef-96eb-9d4310f64bb3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: cd2aff61-7f1b-41f1-9a6f-6a64bf576118
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    hoverAnimation: false
+    hoverEndTime: false
+    hoverStartTime: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - hoverAnimation: !<reference.AnimationAsset> 00000000-0000-0000-0000-000000000000
+      hoverStartTime: !<float> 0.000000
+      hoverEndTime: !<float> 5.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.AnimationAsset hoverAnimation
+    - '// @ui {"widget":"group_start", "label":"Hover Animation"}'
+    - '// @input float hoverStartTime {"hint":"Start time for hover animation in seconds", "widget":"spinbox", "min":0, "step":0.1}'
+    - '// @input float hoverEndTime = 5 {"hint":"End time for hover animation in seconds", "widget":"spinbox", "min":0, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'

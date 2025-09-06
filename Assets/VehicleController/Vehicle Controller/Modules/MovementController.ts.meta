@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/5f39b796-d295-4da5-4467-941c656dae0c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 93f3a7b4-365d-45ef-8db7-453b11e5bff5
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 93f3a7b4-365d-45ef-8db7-453b11e5bff5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0b4df96f-959e-4e92-acc0-c242b37ce92b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0b4df96f-959e-4e92-acc0-c242b37ce92b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4f681a5b-579b-4dbd-876f-0af706652971
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    characterControllerComponent: false
+    collisionsController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - characterControllerComponent: !<MappingBased.CharacterControllerComponent> 00000000-0000-0000-0000-000000000000
+      collisionsController: !<MappingBased.CollisionsController> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input CharacterControllerComponent characterControllerComponent
+    - // @input CollisionsController collisionsController

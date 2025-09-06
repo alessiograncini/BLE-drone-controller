@@ -1,0 +1,85 @@
+- !<ObjectPrefab/00a43e31-ae4f-467e-8e63-bbe8b0b0778e>
+  PackagePath: ""
+  objects:
+    - !<own> c0224017-e8b1-412a-89e9-4b025ece0cc5
+  LazyLoading: true
+  RetainAssets: true
+- !<ScreenTransform/164b053e-cad0-472a-907c-645a9bc4dd35>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<Image/36d068e3-3010-4a11-a446-f9f4f4df2b9e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2d125abc-e7a1-4abc-b634-b2750307b1ba
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<InteractionComponent/9857843d-7f56-4823-b5d9-82e7d8411a2a>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    - !<reference> 36d068e3-3010-4a11-a446-f9f4f4df2b9e
+- !<SceneObject/c0224017-e8b1-412a-89e9-4b025ece0cc5>
+  PrefabRemaps:
+    []
+  Name: Control Plate
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 164b053e-cad0-472a-907c-645a9bc4dd35
+    - !<own> 36d068e3-3010-4a11-a446-f9f4f4df2b9e
+    - !<own> 9857843d-7f56-4823-b5d9-82e7d8411a2a

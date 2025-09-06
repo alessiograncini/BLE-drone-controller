@@ -1,0 +1,97 @@
+- !<AssetImportMetadata/809e6b69-1616-f718-1a87-ad6bf0d9d96a>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8003c00d-2ed5-481b-b40d-7bcef25519e7
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8003c00d-2ed5-481b-b40d-7bcef25519e7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 805ca65a-1d08-4ffa-a555-c7d2a7439430
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/4ad2d87a-83a6-44c4-a995-9dd95ed78be1>
+  PackagePath: ""
+  objects:
+    - !<own> ca5b54bd-1af6-4559-9b9e-5974aa8c7688
+  LazyLoading: false
+  RetainAssets: true
+- !<ScreenTransform/68ec6c7c-ec95-4496-bb82-14e0d00e5806>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: false
+  Anchor:
+    left: -0.600000
+    bottom: -0.600000
+    right: 0.600000
+    top: 0.600000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<Image/74149612-36eb-4e03-b5a8-46633f3443e8>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7ce3053e-2323-4d1c-8fa2-69099ffd37ea
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/805ca65a-1d08-4ffa-a555-c7d2a7439430>
+  SourceRemaps:
+    - 0dfdba92-8c1b-4853-a9e0-cf7bc22a2d82: 68ec6c7c-ec95-4496-bb82-14e0d00e5806
+    - 420135af-d6b9-4dd9-8d17-96e060fdd5cc: 74149612-36eb-4e03-b5a8-46633f3443e8
+    - 8003c00d-2ed5-481b-b40d-7bcef25519e7: 4ad2d87a-83a6-44c4-a995-9dd95ed78be1
+    - edac9cca-9dbf-4b43-bd62-3029985ad8cf: ca5b54bd-1af6-4559-9b9e-5974aa8c7688
+  SourceState: !<own> 4ad2d87a-83a6-44c4-a995-9dd95ed78be1
+- !<SceneObject/ca5b54bd-1af6-4559-9b9e-5974aa8c7688>
+  PrefabRemaps:
+    []
+  Name: Control Dot
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 68ec6c7c-ec95-4496-bb82-14e0d00e5806
+    - !<own> 74149612-36eb-4e03-b5a8-46633f3443e8

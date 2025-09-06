@@ -1,0 +1,929 @@
+- !<AssetImportMetadata/2375095a-f470-4148-b450-5d37776fedc1>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 94a5a5bb-5588-45d7-ae5b-7a5fca10ff01
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 94a5a5bb-5588-45d7-ae5b-7a5fca10ff01
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 793f5210-8cf1-4120-b91c-e0c89eca3b04
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/00390d10-c7b8-43c7-991b-08f889d40641>
+  PrefabRemaps:
+    []
+  Name: shaft1_anim_joint.37
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 2.096063, z: 10.853485}
+    Rotation: {x: 117.788101, y: 0.536236, z: 0.398883}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e6b5a851-5b18-4630-a384-bd7bd90ae230
+    - !<own> 9277d70f-0d90-4f67-b01e-ce304322e984
+  Components:
+    []
+- !<SceneObject/0ec2712d-a3eb-420a-bf38-6c4310b32262>
+  PrefabRemaps:
+    []
+  Name: weapon_destroy_bind_joint.36
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/148d88be-8f19-4f69-89b3-5233990a5334>
+  PrefabRemaps:
+    []
+  Name: landing_struts_b_anim_joint.16
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -1.070322, y: -26.437111, z: -196.750320}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> edf23fb4-39d4-4aaa-b23a-b263d11a7fa3
+    - !<own> 49fb41a0-4c1e-4d46-b06d-2d5782d13d42
+  Components:
+    []
+- !<SceneObject/21800e1b-8684-4d8a-97c6-b475e60b6cdc>
+  PrefabRemaps:
+    []
+  Name: Drone qui plane 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f60a2590-8d53-405f-ad24-8ff11b840711
+  Components:
+    []
+- !<AnimationPlayer/2c79ff04-c8cf-43f8-ac5f-28fb6c96f8f4>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 189b0d8c-1622-4eff-ad23-cb49cdd22001
+      Name: take_off_and_land
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 390.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> cee68f31-1c3e-474e-a10f-76e8cb899cbd
+      Name: hover
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 199.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/35a45966-5bd3-4e53-90fd-0b3c295f7d14>
+  PrefabRemaps:
+    []
+  Name: landing_struts_r_destroy_bind_joint.24
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/384d7233-af7d-445c-95d8-ceef7b378eba>
+  PrefabRemaps:
+    []
+  Name: propeller_left_anim_joint.7
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 210.634033, y: 62.873192, z: 121.401833}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9f49896e-57e9-43fb-97bb-227b404bdf56
+    - !<own> 83129236-a31f-46d5-883a-d83ed66c1349
+  Components:
+    []
+- !<SceneObject/3fbbbe75-529d-4d4e-a375-cbbaef2690e6>
+  PrefabRemaps:
+    []
+  Name: geo.43
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a5f54f3c-90dd-4df2-a716-8be5f8a9c737
+  Components:
+    []
+- !<SceneObject/41dfba9f-8c7f-4fd6-9257-e9845ace9c46>
+  PrefabRemaps:
+    []
+  Name: landing_struts_r_anim_joint.22
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -214.924393, y: -5.729395, z: 120.711586}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 94475144-0209-4ee7-bc14-f323ebfb2331
+    - !<own> 35a45966-5bd3-4e53-90fd-0b3c295f7d14
+  Components:
+    []
+- !<SceneObject/48359d63-9c33-4a66-b0b3-458b50ab6835>
+  PrefabRemaps:
+    []
+  Name: weapon_prisine_bind_joint.35
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/49d45b34-a2b5-404b-9322-7aec335d44d9>
+  PrefabRemaps:
+    []
+  Name: ""
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 171697db-b678-4191-bf98-1376365a8b1b
+  Mesh: !<reference> e1636587-235d-4d10-a0af-7b34bdb7b45f
+  Skin: !<reference> 9bc11cda-fb05-497b-9682-4cb1110b55c3
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/49fb41a0-4c1e-4d46-b06d-2d5782d13d42>
+  PrefabRemaps:
+    []
+  Name: landing_struts_b_destroy_bind_joint.18
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/4e8a5fc2-c0be-4cc8-b521-76d4502ef302>
+  PrefabRemaps:
+    []
+  Name: blade_spin_b_anim_joint.31
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.381706, y: 44.391663, z: -192.661713}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9ff7bd89-cee2-48d7-b516-95fdf8502bd7
+    - !<own> 7f7c2d2d-c7c3-4bd0-8722-ed579716f375
+  Components:
+    []
+- !<SceneObject/5522427d-6ef8-4b30-b54f-2000e0978ba4>
+  PrefabRemaps:
+    []
+  Name: Drone_main_joint.3
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 67.757347, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ed5c46ee-9902-431e-89f4-d349d7e43c81
+    - !<own> d4d1604c-ac8b-479f-a3a8-f1d129f0fbd3
+  Components:
+    []
+- !<ObjectPrefab/5e56b1ac-9712-47e5-8eb5-29d1c006ff3c>
+  PackagePath: ""
+  objects:
+    - !<own> 21800e1b-8684-4d8a-97c6-b475e60b6cdc
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/5f1cd26d-655f-46c5-ac49-4fd45a43e505>
+  PrefabRemaps:
+    []
+  Name: propeller_right_destroy_bind_joint.12
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/627e53b8-c06f-4653-9e0e-0f8f251e9d8b>
+  PrefabRemaps:
+    []
+  Name: propeller_back_destroy_bind_joint.15
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/63962c49-0523-4ca7-81dd-b9bf1db0cc1f>
+  PrefabRemaps:
+    []
+  Name: skeletal.1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 91f37fc7-359e-4f46-b800-42118162525f
+  Components:
+    []
+- !<SceneObject/6a655eda-fbd7-44f2-9148-16c0aa2e8023>
+  PrefabRemaps:
+    []
+  Name: blade_spin_l_prisine_bind_joint.26
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/73934ecd-4628-4e6e-904a-9a8560e8307f>
+  PrefabRemaps:
+    []
+  Name: blade_spin_r_anim_joint.28
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -213.271210, y: 62.873192, z: 121.652176}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a691b1c9-69f4-4e10-b58a-03321b98604c
+    - !<own> 8418c68a-86dc-476c-9452-b1f0e5b86177
+  Components:
+    []
+- !<SceneObject/73b43478-43fb-4302-8f10-29707c934edd>
+  PrefabRemaps:
+    []
+  Name: shaft2_destroy_bind_joint.42
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<ObjectPrefabAssetData/793f5210-8cf1-4120-b91c-e0c89eca3b04>
+  SourceRemaps:
+    - 0a9254b7-58c9-4994-bed7-330eb1f92a38: 91f37fc7-359e-4f46-b800-42118162525f
+    - 0ce614c1-326f-4a7d-8277-e9510dd200a4: 00390d10-c7b8-43c7-991b-08f889d40641
+    - 12e9c1b2-5fb8-41cf-a7c0-d7284d678404: 4e8a5fc2-c0be-4cc8-b521-76d4502ef302
+    - 15c54b82-826f-455b-bf4e-9179da43c516: dd4210fd-6e5e-402f-a2f5-a2dd429f938d
+    - 1a2ef66c-1437-45ef-b491-f00ab305190a: d4d1604c-ac8b-479f-a3a8-f1d129f0fbd3
+    - 2082c65e-f75e-4677-94ae-3a767bffa2ea: ad525d70-45b7-44bf-8a10-83c209ce5a1d
+    - 2082fce9-0c32-4c48-8ed4-94fa0d4f88ce: 49d45b34-a2b5-404b-9322-7aec335d44d9
+    - 21efaf3e-1f70-4893-989c-84605f8946a4: 3fbbbe75-529d-4d4e-a375-cbbaef2690e6
+    - 26827cc8-1286-4780-a796-8d7c6e9f04b2: c2f72525-965d-430d-846c-f66641c2a308
+    - 29604db5-6c0a-468b-a13f-a03ca3c6a669: 6a655eda-fbd7-44f2-9148-16c0aa2e8023
+    - 2a560f3c-b8c9-499c-98f9-3640c28dc970: 9bc11cda-fb05-497b-9682-4cb1110b55c3
+    - 346f20a7-16e8-44e0-b353-e3604cd96a6e: 9439e6a6-4605-4321-a29d-16cbce5a71e2
+    - 3a301337-14ae-4ca3-b8b2-4b42ebc9c255: f60a2590-8d53-405f-ad24-8ff11b840711
+    - 3eef7152-f03b-45ec-973f-1147f2f21c55: e8fb853c-3096-41ff-9e71-3d558c926b8e
+    - 42ce7d7f-d9b6-45bb-ac5f-6d263a0eb1bc: a691b1c9-69f4-4e10-b58a-03321b98604c
+    - 45364d50-91df-4ff4-b481-5f0a8b3aa7bd: edf23fb4-39d4-4aaa-b23a-b263d11a7fa3
+    - 47160fd6-dba9-45be-b1db-0e21b2f992de: e6b5a851-5b18-4630-a384-bd7bd90ae230
+    - 4865bd92-3ff3-4026-acf5-6eb95ea1dbfe: 148d88be-8f19-4f69-89b3-5233990a5334
+    - 4b287718-ff8c-427b-9cb9-d0948c57232c: 8418c68a-86dc-476c-9452-b1f0e5b86177
+    - 4b48ad51-9145-4d7a-a941-af24f94c8f69: aa3662ab-960c-4a38-a36a-b0862479a30f
+    - 4d826795-ce14-41e3-874f-05b3806ecf05: dd569fc0-b3b7-48f8-a80e-3cf69be32f87
+    - 55a4d91e-0d20-4766-9a5b-7d9dc2666d0b: f5b5d94a-0e31-4dc7-b21e-c705bf448f66
+    - 5f5eccd2-01f0-41de-9a31-241257b42527: 63962c49-0523-4ca7-81dd-b9bf1db0cc1f
+    - 63189f11-8bca-418e-91c3-7292d9715ad9: ed52e523-d35a-4a78-8c24-53074f76009e
+    - 7002de29-a85b-449a-b484-c567ef376c98: 21800e1b-8684-4d8a-97c6-b475e60b6cdc
+    - 72be72b5-204c-44f1-8443-a2cedcb108cb: 2c79ff04-c8cf-43f8-ac5f-28fb6c96f8f4
+    - 7b043b5c-ad8a-4264-84c3-edec2c4f3af3: 627e53b8-c06f-4653-9e0e-0f8f251e9d8b
+    - 7e978a0b-455b-4954-804a-fd7d42117ae6: 384d7233-af7d-445c-95d8-ceef7b378eba
+    - 812aee9a-1a87-47c5-8089-40b416817548: 5f1cd26d-655f-46c5-ac49-4fd45a43e505
+    - 89abb909-5d7a-47d8-a048-eb3894bd8757: 8b9e90b4-cf8a-4213-8d1f-83a6f095a9da
+    - 8c8555b5-5b2c-4ed4-85da-66cb5261c93a: 35a45966-5bd3-4e53-90fd-0b3c295f7d14
+    - 8ef7c215-14ea-4ea5-9bd5-44c385810ee9: 73b43478-43fb-4302-8f10-29707c934edd
+    - 8ff52517-d244-40f1-a882-fb579f796d69: 41dfba9f-8c7f-4fd6-9257-e9845ace9c46
+    - 948626af-30a5-4142-8c22-5add863ec1de: 9277d70f-0d90-4f67-b01e-ce304322e984
+    - 94a5a5bb-5588-45d7-ae5b-7a5fca10ff01: 5e56b1ac-9712-47e5-8eb5-29d1c006ff3c
+    - 95ac3944-a958-4a71-a03f-4d3bb60a36aa: 8f2362dd-f8ad-4a42-8b3f-27c1c5d505b5
+    - aae12765-78be-45c0-bfd4-19a65d3ea28b: 9ff7bd89-cee2-48d7-b516-95fdf8502bd7
+    - c2504e9c-c527-4a0f-904c-796c10ae37a8: 83129236-a31f-46d5-883a-d83ed66c1349
+    - c46299c3-ce36-4a0e-82ad-37e6490c9054: ed5c46ee-9902-431e-89f4-d349d7e43c81
+    - c8fce1fe-c743-4c56-b631-69a9de5fbd35: 73934ecd-4628-4e6e-904a-9a8560e8307f
+    - d2fd8836-5933-429f-b106-2ee217afef91: 9f49896e-57e9-43fb-97bb-227b404bdf56
+    - d54d7d20-5051-40bb-8cd0-dd3951678e33: a5f54f3c-90dd-4df2-a716-8be5f8a9c737
+    - db006f72-8cc8-4490-ac4f-16b788493c43: e7d46072-4de9-4921-921a-ee375ca5271c
+    - ddade5d6-0fcc-454f-a6c3-d3ddd4cf0ce0: 48359d63-9c33-4a66-b0b3-458b50ab6835
+    - ddf8960c-71a2-48a1-98a1-988c2379cfec: c3b34c13-0d74-41a7-b4c5-83f8dc9c4dad
+    - de50d90b-7ed4-4e2b-aa10-094160617b17: 0ec2712d-a3eb-420a-bf38-6c4310b32262
+    - e25422bf-a814-4b7e-84f9-3e1ff068fcd6: 8f5f4410-589c-41e2-bf4b-53bb1b780574
+    - e9aeaf8c-a006-4ba3-877c-e040a6bbbf39: 49fb41a0-4c1e-4d46-b06d-2d5782d13d42
+    - ec3b3983-4b00-4af8-8762-ebc2a53e50d5: 94475144-0209-4ee7-bc14-f323ebfb2331
+    - fa5f6de9-2b2c-47dc-952c-dd7a9fdd5e8a: e7f2abed-c471-4d5e-8252-364485c7bac4
+    - fcce7014-515e-48b5-8ee4-9091606d9c30: 7f7c2d2d-c7c3-4bd0-8722-ed579716f375
+    - fe8fbc8f-cf2e-4a5e-9cf8-cb4263cbe522: 5522427d-6ef8-4b30-b54f-2000e0978ba4
+  SourceState: !<own> 5e56b1ac-9712-47e5-8eb5-29d1c006ff3c
+- !<SceneObject/7f7c2d2d-c7c3-4bd0-8722-ed579716f375>
+  PrefabRemaps:
+    []
+  Name: blade_spin_b_destroy_bind_joint.33
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/83129236-a31f-46d5-883a-d83ed66c1349>
+  PrefabRemaps:
+    []
+  Name: propeller_left_destroy_bind_joint.9
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/8418c68a-86dc-476c-9452-b1f0e5b86177>
+  PrefabRemaps:
+    []
+  Name: blade_spin_r_destroy_bind_joint.30
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/8b9e90b4-cf8a-4213-8d1f-83a6f095a9da>
+  PrefabRemaps:
+    []
+  Name: propeller_right_anim_joint.10
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -212.145218, y: 62.873192, z: 121.401833}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e7d46072-4de9-4921-921a-ee375ca5271c
+    - !<own> 5f1cd26d-655f-46c5-ac49-4fd45a43e505
+  Components:
+    []
+- !<SceneObject/8f2362dd-f8ad-4a42-8b3f-27c1c5d505b5>
+  PrefabRemaps:
+    []
+  Name: shaft2_prisine_bind_joint.41
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/8f5f4410-589c-41e2-bf4b-53bb1b780574>
+  PrefabRemaps:
+    []
+  Name: RootNode.0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 63962c49-0523-4ca7-81dd-b9bf1db0cc1f
+    - !<own> 3fbbbe75-529d-4d4e-a375-cbbaef2690e6
+  Components:
+    []
+- !<SceneObject/91f37fc7-359e-4f46-b800-42118162525f>
+  PrefabRemaps:
+    []
+  Name: root.2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5522427d-6ef8-4b30-b54f-2000e0978ba4
+  Components:
+    []
+- !<SceneObject/9277d70f-0d90-4f67-b01e-ce304322e984>
+  PrefabRemaps:
+    []
+  Name: shaft1_destroy_bind_joint.39
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9439e6a6-4605-4321-a29d-16cbce5a71e2>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8f5f4410-589c-41e2-bf4b-53bb1b780574
+  Components:
+    - !<own> 2c79ff04-c8cf-43f8-ac5f-28fb6c96f8f4
+    - !<own> 9bc11cda-fb05-497b-9682-4cb1110b55c3
+- !<SceneObject/94475144-0209-4ee7-bc14-f323ebfb2331>
+  PrefabRemaps:
+    []
+  Name: landing_struts_r_prisine_bind_joint.23
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Skin/9bc11cda-fb05-497b-9682-4cb1110b55c3>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    Drone_main_joint.3: !<reference> 5522427d-6ef8-4b30-b54f-2000e0978ba4
+    RootNode.0: !<reference> 8f5f4410-589c-41e2-bf4b-53bb1b780574
+    blade_spin_b_anim_joint.31: !<reference> 4e8a5fc2-c0be-4cc8-b521-76d4502ef302
+    blade_spin_b_destroy_bind_joint.33: !<reference> 7f7c2d2d-c7c3-4bd0-8722-ed579716f375
+    blade_spin_b_prisine_bind_joint.32: !<reference> 9ff7bd89-cee2-48d7-b516-95fdf8502bd7
+    blade_spin_l_anim_joint.25: !<reference> dd4210fd-6e5e-402f-a2f5-a2dd429f938d
+    blade_spin_l_destroy_bind_joint.27: !<reference> e7f2abed-c471-4d5e-8252-364485c7bac4
+    blade_spin_l_prisine_bind_joint.26: !<reference> 6a655eda-fbd7-44f2-9148-16c0aa2e8023
+    blade_spin_r_anim_joint.28: !<reference> 73934ecd-4628-4e6e-904a-9a8560e8307f
+    blade_spin_r_destroy_bind_joint.30: !<reference> 8418c68a-86dc-476c-9452-b1f0e5b86177
+    blade_spin_r_prisine_bind_joint.29: !<reference> a691b1c9-69f4-4e10-b58a-03321b98604c
+    body_destroy_bind_joint.6: !<reference> ad525d70-45b7-44bf-8a10-83c209ce5a1d
+    body_prisine_bind_joint.5: !<reference> aa3662ab-960c-4a38-a36a-b0862479a30f
+    body_rot_anim_joint.4: !<reference> ed5c46ee-9902-431e-89f4-d349d7e43c81
+    drone.44: !<reference> a5f54f3c-90dd-4df2-a716-8be5f8a9c737
+    geo.43: !<reference> 3fbbbe75-529d-4d4e-a375-cbbaef2690e6
+    landing_struts_b_anim_joint.16: !<reference> 148d88be-8f19-4f69-89b3-5233990a5334
+    landing_struts_b_destroy_bind_joint.18: !<reference> 49fb41a0-4c1e-4d46-b06d-2d5782d13d42
+    landing_struts_b_prisine_bind_joint.17: !<reference> edf23fb4-39d4-4aaa-b23a-b263d11a7fa3
+    landing_struts_l_anim_joint.19: !<reference> c2f72525-965d-430d-846c-f66641c2a308
+    landing_struts_l_destroy_bind_joint.21: !<reference> dd569fc0-b3b7-48f8-a80e-3cf69be32f87
+    landing_struts_l_prisine_bind_joint.20: !<reference> e8fb853c-3096-41ff-9e71-3d558c926b8e
+    landing_struts_r_anim_joint.22: !<reference> 41dfba9f-8c7f-4fd6-9257-e9845ace9c46
+    landing_struts_r_destroy_bind_joint.24: !<reference> 35a45966-5bd3-4e53-90fd-0b3c295f7d14
+    landing_struts_r_prisine_bind_joint.23: !<reference> 94475144-0209-4ee7-bc14-f323ebfb2331
+    propeller_back_anim_joint.13: !<reference> ed52e523-d35a-4a78-8c24-53074f76009e
+    propeller_back_destroy_bind_joint.15: !<reference> 627e53b8-c06f-4653-9e0e-0f8f251e9d8b
+    propeller_back_prisine_bind_joint.14: !<reference> c3b34c13-0d74-41a7-b4c5-83f8dc9c4dad
+    propeller_left_anim_joint.7: !<reference> 384d7233-af7d-445c-95d8-ceef7b378eba
+    propeller_left_destroy_bind_joint.9: !<reference> 83129236-a31f-46d5-883a-d83ed66c1349
+    propeller_left_prisine_bind_joint.8: !<reference> 9f49896e-57e9-43fb-97bb-227b404bdf56
+    propeller_right_anim_joint.10: !<reference> 8b9e90b4-cf8a-4213-8d1f-83a6f095a9da
+    propeller_right_destroy_bind_joint.12: !<reference> 5f1cd26d-655f-46c5-ac49-4fd45a43e505
+    propeller_right_prisine_bind_joint.11: !<reference> e7d46072-4de9-4921-921a-ee375ca5271c
+    root.2: !<reference> 91f37fc7-359e-4f46-b800-42118162525f
+    shaft1_anim_joint.37: !<reference> 00390d10-c7b8-43c7-991b-08f889d40641
+    shaft1_destroy_bind_joint.39: !<reference> 9277d70f-0d90-4f67-b01e-ce304322e984
+    shaft1_prisine_bind_joint.38: !<reference> e6b5a851-5b18-4630-a384-bd7bd90ae230
+    shaft2_anim_joint.40: !<reference> f5b5d94a-0e31-4dc7-b21e-c705bf448f66
+    shaft2_destroy_bind_joint.42: !<reference> 73b43478-43fb-4302-8f10-29707c934edd
+    shaft2_prisine_bind_joint.41: !<reference> 8f2362dd-f8ad-4a42-8b3f-27c1c5d505b5
+    skeletal.1: !<reference> 63962c49-0523-4ca7-81dd-b9bf1db0cc1f
+    weapon_anim_joint.34: !<reference> d4d1604c-ac8b-479f-a3a8-f1d129f0fbd3
+    weapon_destroy_bind_joint.36: !<reference> 0ec2712d-a3eb-420a-bf38-6c4310b32262
+    weapon_prisine_bind_joint.35: !<reference> 48359d63-9c33-4a66-b0b3-458b50ab6835
+- !<SceneObject/9f49896e-57e9-43fb-97bb-227b404bdf56>
+  PrefabRemaps:
+    []
+  Name: propeller_left_prisine_bind_joint.8
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/9ff7bd89-cee2-48d7-b516-95fdf8502bd7>
+  PrefabRemaps:
+    []
+  Name: blade_spin_b_prisine_bind_joint.32
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/a5f54f3c-90dd-4df2-a716-8be5f8a9c737>
+  PrefabRemaps:
+    []
+  Name: drone.44
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 49d45b34-a2b5-404b-9322-7aec335d44d9
+- !<SceneObject/a691b1c9-69f4-4e10-b58a-03321b98604c>
+  PrefabRemaps:
+    []
+  Name: blade_spin_r_prisine_bind_joint.29
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/aa3662ab-960c-4a38-a36a-b0862479a30f>
+  PrefabRemaps:
+    []
+  Name: body_prisine_bind_joint.5
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ad525d70-45b7-44bf-8a10-83c209ce5a1d>
+  PrefabRemaps:
+    []
+  Name: body_destroy_bind_joint.6
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/c2f72525-965d-430d-846c-f66641c2a308>
+  PrefabRemaps:
+    []
+  Name: landing_struts_l_anim_joint.19
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 213.605698, y: -5.580978, z: 120.711578}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e8fb853c-3096-41ff-9e71-3d558c926b8e
+    - !<own> dd569fc0-b3b7-48f8-a80e-3cf69be32f87
+  Components:
+    []
+- !<SceneObject/c3b34c13-0d74-41a7-b4c5-83f8dc9c4dad>
+  PrefabRemaps:
+    []
+  Name: propeller_back_prisine_bind_joint.14
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/d4d1604c-ac8b-479f-a3a8-f1d129f0fbd3>
+  PrefabRemaps:
+    []
+  Name: weapon_anim_joint.34
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.835351, y: -38.840168, z: 55.634743}
+    Rotation: {x: 22.630650, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 48359d63-9c33-4a66-b0b3-458b50ab6835
+    - !<own> 0ec2712d-a3eb-420a-bf38-6c4310b32262
+    - !<own> 00390d10-c7b8-43c7-991b-08f889d40641
+    - !<own> f5b5d94a-0e31-4dc7-b21e-c705bf448f66
+  Components:
+    []
+- !<SceneObject/dd4210fd-6e5e-402f-a2f5-a2dd429f938d>
+  PrefabRemaps:
+    []
+  Name: blade_spin_l_anim_joint.25
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 212.507843, y: 62.873192, z: 121.652176}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6a655eda-fbd7-44f2-9148-16c0aa2e8023
+    - !<own> e7f2abed-c471-4d5e-8252-364485c7bac4
+  Components:
+    []
+- !<SceneObject/dd569fc0-b3b7-48f8-a80e-3cf69be32f87>
+  PrefabRemaps:
+    []
+  Name: landing_struts_l_destroy_bind_joint.21
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/e6b5a851-5b18-4630-a384-bd7bd90ae230>
+  PrefabRemaps:
+    []
+  Name: shaft1_prisine_bind_joint.38
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/e7d46072-4de9-4921-921a-ee375ca5271c>
+  PrefabRemaps:
+    []
+  Name: propeller_right_prisine_bind_joint.11
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/e7f2abed-c471-4d5e-8252-364485c7bac4>
+  PrefabRemaps:
+    []
+  Name: blade_spin_l_destroy_bind_joint.27
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/e8fb853c-3096-41ff-9e71-3d558c926b8e>
+  PrefabRemaps:
+    []
+  Name: landing_struts_l_prisine_bind_joint.20
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/ed52e523-d35a-4a78-8c24-53074f76009e>
+  PrefabRemaps:
+    []
+  Name: propeller_back_anim_joint.13
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.213185, y: 44.391663, z: -191.976746}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c3b34c13-0d74-41a7-b4c5-83f8dc9c4dad
+    - !<own> 627e53b8-c06f-4653-9e0e-0f8f251e9d8b
+  Components:
+    []
+- !<SceneObject/ed5c46ee-9902-431e-89f4-d349d7e43c81>
+  PrefabRemaps:
+    []
+  Name: body_rot_anim_joint.4
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> aa3662ab-960c-4a38-a36a-b0862479a30f
+    - !<own> ad525d70-45b7-44bf-8a10-83c209ce5a1d
+    - !<own> 384d7233-af7d-445c-95d8-ceef7b378eba
+    - !<own> 8b9e90b4-cf8a-4213-8d1f-83a6f095a9da
+    - !<own> ed52e523-d35a-4a78-8c24-53074f76009e
+    - !<own> 148d88be-8f19-4f69-89b3-5233990a5334
+    - !<own> c2f72525-965d-430d-846c-f66641c2a308
+    - !<own> 41dfba9f-8c7f-4fd6-9257-e9845ace9c46
+    - !<own> dd4210fd-6e5e-402f-a2f5-a2dd429f938d
+    - !<own> 73934ecd-4628-4e6e-904a-9a8560e8307f
+    - !<own> 4e8a5fc2-c0be-4cc8-b521-76d4502ef302
+  Components:
+    []
+- !<SceneObject/edf23fb4-39d4-4aaa-b23a-b263d11a7fa3>
+  PrefabRemaps:
+    []
+  Name: landing_struts_b_prisine_bind_joint.17
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/f5b5d94a-0e31-4dc7-b21e-c705bf448f66>
+  PrefabRemaps:
+    []
+  Name: shaft2_anim_joint.40
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.000002, y: -2.096054, z: -10.853490}
+    Rotation: {x: 92.818336, y: -34.498077, z: 90.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8f2362dd-f8ad-4a42-8b3f-27c1c5d505b5
+    - !<own> 73b43478-43fb-4302-8f10-29707c934edd
+  Components:
+    []
+- !<SceneObject/f60a2590-8d53-405f-ad24-8ff11b840711>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9439e6a6-4605-4321-a29d-16cbce5a71e2
+  Components:
+    []

@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/57d5bc18-9e45-e54e-16aa-ee4beda1536d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 24cdbafc-9ca0-4c28-8094-2315b4f6eeb3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 24cdbafc-9ca0-4c28-8094-2315b4f6eeb3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5e03761f-7ce9-4b45-b526-dfc9261cbf24
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5e03761f-7ce9-4b45-b526-dfc9261cbf24>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b3cbbbd8-9b65-4bac-b681-d11bf8f770ed
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    uiCameraPrefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - uiCameraPrefab: !<reference.ObjectPrefab> 1ebd5ebd-76d8-43d4-a03e-0822855dfc75
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.ObjectPrefab uiCameraPrefab

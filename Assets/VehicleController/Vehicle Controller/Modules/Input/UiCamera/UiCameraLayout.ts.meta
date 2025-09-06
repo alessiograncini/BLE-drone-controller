@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/bea1763c-de34-a62e-3a7e-9d85261254dd>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4ddd7aa1-1e7f-4029-8654-cc7a3fdabdea
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4ddd7aa1-1e7f-4029-8654-cc7a3fdabdea
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 823ec730-e51e-4a1c-ae1b-3fb2598b2a17
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/823ec730-e51e-4a1c-ae1b-3fb2598b2a17>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d7a6fc3a-3bf9-409f-9e3c-cdf2c062f6eb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    leftInputControlSpace: false
+    rightInputControlSpace: false
+    uiCamera: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - uiCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      leftInputControlSpace: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rightInputControlSpace: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Camera uiCamera
+    - // @input SceneObject leftInputControlSpace
+    - // @input SceneObject rightInputControlSpace

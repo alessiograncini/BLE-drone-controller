@@ -1,0 +1,74 @@
+- !<ObjectPrefab/8003c00d-2ed5-481b-b40d-7bcef25519e7>
+  PackagePath: ""
+  objects:
+    - !<own> edac9cca-9dbf-4b43-bd62-3029985ad8cf
+  LazyLoading: true
+  RetainAssets: true
+- !<ScreenTransform/0dfdba92-8c1b-4853-a9e0-cf7bc22a2d82>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: false
+  Anchor:
+    left: -0.600000
+    bottom: -0.600000
+    right: 0.600000
+    top: 0.600000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<Image/420135af-d6b9-4dd9-8d17-96e060fdd5cc>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7ce3053e-2323-4d1c-8fa2-69099ffd37ea
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/edac9cca-9dbf-4b43-bd62-3029985ad8cf>
+  PrefabRemaps:
+    []
+  Name: Control Dot
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0dfdba92-8c1b-4853-a9e0-cf7bc22a2d82
+    - !<own> 420135af-d6b9-4dd9-8d17-96e060fdd5cc

@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/634be3ce-42d9-4e6d-b648-9e9a07db56ca>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2a4d49d2-220d-4aee-b8e4-5b9d3be77977
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2a4d49d2-220d-4aee-b8e4-5b9d3be77977
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9984eb38-ef2b-4a26-bc5e-7d4b74c6447c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9984eb38-ef2b-4a26-bc5e-7d4b74c6447c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: db493e85-f591-44b8-8271-e4ea7ba7c637
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    cameraObj: false
+    debugText: false
+    enableDebugInfo: false
+    enableFlipTesting: false
+    flipDuration: false
+    objectVisuals: false
+    placementSettingMode: false
+    vehicleAnimationController: false
+    vehicleController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - objectVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      vehicleController: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      vehicleAnimationController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      cameraObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      placementSettingMode: 0
+      enableDebugInfo: false
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      enableFlipTesting: false
+      flipDuration: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject objectVisuals
+    - // @input AssignableType vehicleController
+    - // @input AssignableType_1 vehicleAnimationController
+    - // @input SceneObject cameraObj
+    - '// @input int placementSettingMode {"widget":"combobox", "values":[{"label":"Near Surface", "value":0}, {"label":"Horizontal", "value":1}]}'
+    - // @input boolean enableDebugInfo
+    - // @input Component.Text debugText
+    - // @input boolean enableFlipTesting
+    - '// @input float flipDuration = 1 {"widget":"slider", "min":0.5, "max":3, "step":0.1}'

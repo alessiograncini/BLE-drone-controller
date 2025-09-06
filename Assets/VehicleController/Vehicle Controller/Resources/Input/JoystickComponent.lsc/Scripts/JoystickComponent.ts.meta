@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/a9e4a2ee-164b-c927-29b5-7a7f296e6792>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 75700b31-0e80-423a-a2da-719edf79a45d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 75700b31-0e80-423a-a2da-719edf79a45d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6bdfd6ae-aed6-48ab-a954-b360cb9a38e0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6bdfd6ae-aed6-48ab-a954-b360cb9a38e0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: FND-5251
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: edc09be7-82c3-4526-a06e-102b65f50369
+  ExportUid: d9485bf5-ab40-4b65-b847-6e6dabda8d23
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    config: false
+    controlDotPrefab: false
+    controlPlatePrefab: false
+    releaseJoystickAnimationLerpFactor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 2a1ef82d-1bdf-47a6-87a2-c528aa58f7b2
+  DefaultScriptInputs:
+    - config:
+        renderOrder: !<float> 100.000000
+        position: 0
+        interactiveArea: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+        deadZone: 0.200000
+        sensitivity: 0.960000
+      controlDotPrefab: !<reference.ObjectPrefab> 8003c00d-2ed5-481b-b40d-7bcef25519e7
+      controlPlatePrefab: !<reference.ObjectPrefab> 00a43e31-ae4f-467e-8e63-bbe8b0b0778e
+      releaseJoystickAnimationLerpFactor: 0.500000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - /*
+    - "@typedef JoystickComponentConfig"
+    - "@property {float} renderOrder = 100 "
+    - '@property {int} position {"widget":"combobox", "values":[{"label":"Free", "value":0}, {"label":"Fixed", "value":1}]}'
+    - '@property {Component.InteractionComponent} interactiveArea {"hint":"Interactive Area defines screen area where joystick may appear with Free position type. If configured, it appears only when a touch starts within this area. Otherwise, it can appear anywhere on screen.", "showIf":"position", "showIfValue":0}'
+    - '@property {float} deadZone = 0.2 {"widget":"slider", "min":0, "max":0.99}'
+    - "@property {float} sensitivity = 0.96 "
+    - "*/"
+    - // @input JoystickComponentConfig config
+    - // @input Asset.ObjectPrefab controlDotPrefab
+    - // @input Asset.ObjectPrefab controlPlatePrefab
+    - // @input float releaseJoystickAnimationLerpFactor = 0.5
